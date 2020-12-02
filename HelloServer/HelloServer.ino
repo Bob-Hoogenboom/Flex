@@ -63,6 +63,8 @@ void setup(void) {
     server.send(200, "text/plain", "this works as well");
   });
 
+  //hallo
+
   server.on("/gif", []() {
     static const uint8_t gif[] PROGMEM = {
       0x47, 0x49, 0x46, 0x38, 0x37, 0x61, 0x10, 0x00, 0x10, 0x00, 0x80, 0x01,
